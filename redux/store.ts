@@ -1,10 +1,15 @@
 import { configureStore } from "@reduxjs/toolkit";
-import registerSlice from "./slicer/registerSlice";
 import { useSelector } from "react-redux/es/hooks/useSelector";
 import { TypedUseSelectorHook } from "react-redux/es/types";
+import categorySlice from "./slicer/categorySlice";
+import registerSlice from "./slicer/registerSlice";
+import brandSlice from "./slicer/brandSlice";
 export const store = configureStore({
    reducer : {
     registerSlice,
+    brandSlice,
+    categorySlice,
+
    }
 });
 

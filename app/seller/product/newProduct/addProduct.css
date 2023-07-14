@@ -1,0 +1,52 @@
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.cat-box {
+    margin: 0px 5px 10px;
+    width: 300px;
+    height: 500px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(193, 199, 208);
+    cursor: pointer;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 4px 0px;
+}
+.cat-img {
+    margin: 0px 5px 5px;
+    width: 90px;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(193, 199, 208);
+    cursor: pointer;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 4px 0px;
+}
+
+.cat-sm-box{
+    width: 250px;
+    border: 1px solid rgb(5, 6, 5);
+    padding: 2px;
+    margin-block-start: 2px;
+    display: block;
+    height: 50px;
+    align-content: right;
+}
+
+.scroll {
+    overflow: auto;
+}
+
+.align-right {
+    margin-left: auto
+}
